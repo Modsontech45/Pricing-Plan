@@ -1,0 +1,96 @@
+
+body {
+    background: black;
+    font-family: "Sono", sans-serif;
+  }
+  .container{
+    height: 100vh;
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+  }
+.pricing-container{
+    height: 100vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+ h1{
+    margin-top: 50px;
+    color: rgb(79, 144, 79);
+}
+
+.pricing-container .pricing-plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(50, 47, 47);
+    flex-basis: 300px;
+    min-height: 30vh;
+    border-radius: 6px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+.pricing-container .pricing-plan .plan-title{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(148, 141, 141);
+}
+.pricing-container .pricing-plan  .plan-price{
+    font-size: 30px; color: rgb(97, 167, 97);
+    font-weight: 700;
+}
+.pricing-container .pricing-plan  ul{
+    list-style: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(193, 183, 183);
+}
+.pricing-container .pricing-plan button{
+    border: none;
+    padding: 4px 6px;
+    background: rgb(71, 140, 71);
+    color: white;
+    border-radius: 3px;
+    font-size: 10px;
+    transition: 0.3s ease;
+}
+.pricing-container .pricing-plan button:hover{
+
+    background: rgb(251, 249, 249);
+    color: rgb(8, 8, 8);
+}
+
+@media (max-width: 1144px) {
+
+    .pricing-container{
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 6rem;
+    }
+
+    .pricing-container .pricing-plan{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: rgb(202, 192, 192);
+       width: 600px;
+        min-height: 20vh;
+        border-radius: 6px;
+
+    }
+
+
+  }
