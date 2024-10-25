@@ -87,8 +87,8 @@ body {
         justify-content: center;
         background: rgb(50, 47, 47);
        width: 600px;
-        min-height: 20vh;
-        border-radius: 6px;
+        min-height: 30vh;
+        border-radius: 10px;
 
     }
     .pricing-container .pricing-plan .plan-title{
