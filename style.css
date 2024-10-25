@@ -69,14 +69,24 @@ body {
 }
 
 @media (max-width: 1144px) {
+    .container{
+        margin-top: 40px;
+        min-height: 100vh;
+        display: flex;
+         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+       margin-bottom: 80px;
+      }
 
     .pricing-container{
-        height: 70vh;
+
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 6rem;
+        gap: 3rem;
     }
 
     .pricing-container .pricing-plan{
